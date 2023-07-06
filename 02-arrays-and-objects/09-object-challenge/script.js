@@ -29,6 +29,7 @@ const library = [
   },
 ];
 
+
 // Step 2
 library[0].status.read = true;
 library[1].status.read = true;
