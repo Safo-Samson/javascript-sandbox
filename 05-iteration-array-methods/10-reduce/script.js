@@ -23,6 +23,15 @@ const cart = [
   { id: 3, name: 'Product 3', price: 200 },
 ];
 
+// my attempt
+
+const myTotal = cart.reduce((acc,curr) =>{
+    acc + curr.price 
+}, 0);
+
+console.log(myTotal)
+
+
 const total = cart.reduce(function (acc, product) {
   return acc + product.price;
 }, 0);
